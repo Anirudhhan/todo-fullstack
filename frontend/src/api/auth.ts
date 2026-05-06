@@ -14,6 +14,7 @@ export interface LoginUserPayload {
 export interface AuthResponse {
   token: string;
   session_id: string;
+  role: "admin" | "user";
 }
 
 export const registerUser = async (payload: RegisterUserPayload) => {
