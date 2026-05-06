@@ -20,12 +20,12 @@ func SetupRoutes() *gin.Engine {
 		})
 		v1.POST("/register", handler.RegisterUser)
 		v1.POST("/login", handler.LoginUser)
-		v1.GET("/ ", handler.RefreshToken)
+		v1.GET("/refresh", handler.RefreshToken)
 
 		auth := v1.Group("/")
 		auth.Use(middleware.AuthMiddleware())
 		auth.PUT("/logout", handler.Logout)
-
+	
 		{
 			todo := auth.Group("/todo")
 			{
@@ -41,8 +41,8 @@ func SetupRoutes() *gin.Engine {
 			{
 				admin.GET("/users", handler.GetAllUsersAdmin)
 				admin.GET("/todos", handler.GetTodosAdmin)
-				admin.POST("/user/:userID", handler.UpdateUserSuspensionAdmin)
-				admin.POST("/todo/:userID", handler.CreateTodoAdmin)
+				admin.PATCH("/user/:userID", handler.UpdateUserSuspensionAdmin)
+				admin.POST("/users/:userID/todos", handler.CreateTodoAdmin)
 				admin.POST("/todos/all", handler.CreateTodoForAll)
 
 			}

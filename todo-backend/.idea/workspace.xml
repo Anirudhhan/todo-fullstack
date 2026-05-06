@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BookmarksViewState">
+    <option name="askBeforeDeletingLists" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bf86046-c95c-49e5-994d-ddbc418914c5" name="Changes" comment="improvement">
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.25.8.linux-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Anirudhhan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Anirudhhan/todo-fullstack.git&quot;,
+    &quot;accountId&quot;: &quot;9d29850d-f2ad-461d-b136-8b6c4a1ebc85&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3COKoMIMlyrcj8GnbgQWEb9ocCV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build todo-app.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.analysis.ui.options.defaults": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "go.sdk.automatically.set": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/remotestate/Desktop/code-prac/fullstack-todo/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="go build todo-app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="todo-app" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="ACCESS_SECRET" value="todo-kishmish" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="todo-app" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build todo-app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-72a9cf600ed8-dfa3e7267ae0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-253.32098.60" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-GO-253.32098.60" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bf86046-c95c-49e5-994d-ddbc418914c5" name="Changes" comment="" />
+      <created>1776251349952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776251349952</updated>
+      <workItem from="1777963222084" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="go mod init and db schema" />
+    <MESSAGE value="." />
+    <MESSAGE value="merge" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="db connection and migration set up" />
+    <MESSAGE value="register and login logic implemented" />
+    <MESSAGE value="logout logic implemented" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="create todo logic added" />
+    <MESSAGE value="some improvement" />
+    <MESSAGE value="update todo implemented" />
+    <MESSAGE value="delete todo implemented" />
+    <MESSAGE value="fixes and error log print" />
+    <MESSAGE value="update todo logic changed" />
+    <MESSAGE value="remove redundant code and optimized" />
+    <MESSAGE value="optimized" />
+    <MESSAGE value="naming and optimization" />
+    <MESSAGE value="middleware added to logout" />
+    <MESSAGE value="bug fix" />
+    <MESSAGE value="improved naming convention" />
+    <MESSAGE value="pagination and search implemented" />
+    <MESSAGE value="created new migration, user_roles and suspended_at column added" />
+    <MESSAGE value="status changed instead of hardcode" />
+    <MESSAGE value="improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvement" />
+  </component>
+</project>
